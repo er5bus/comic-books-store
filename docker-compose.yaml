@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  store-api:
+    build:
+      context: .
+    ports:
+      - "4000:3000"
+    volumes:
+      - ./src:/app/src
+    tty: true

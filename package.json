@@ -1,0 +1,27 @@
+{
+  "name": "comic-books-store",
+  "version": "0.0.1",
+  "description": "RESTful API 'Comics API' which allows the management of a comics website. Each comic is presented by its author, title, URL to the comic book image.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/er5bus/comic-books-store.git"
+  },
+  "author": "SFARI Rami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/er5bus/comic-books-store.git/issues"
+  },
+  "homepage": "https://github.com/er5bus/comic-books-store.git#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
